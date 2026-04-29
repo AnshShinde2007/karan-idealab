@@ -22,7 +22,12 @@ export default function DashboardPage() {
 
   return (
     <div className="container mx-auto p-8">
-      <h1 className="mb-8 text-3xl font-bold">Rescue Operations Dashboard</h1>
+      <h1 className="mb-4 text-3xl font-bold">Rescue Operations Dashboard</h1>
+      <div className="mb-8 p-4 bg-muted/50 rounded-lg border text-sm w-fit">
+        <p className="font-semibold mb-1">Admin Access Credentials</p>
+        <p>Username: <code className="bg-muted px-1 py-0.5 rounded">admin</code></p>
+        <p>Password: <code className="bg-muted px-1 py-0.5 rounded">admin 1234</code></p>
+      </div>
       
       {/* Stats Cards */}
       <div className="mb-8 grid gap-4 md:grid-cols-4">
